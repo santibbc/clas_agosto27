@@ -52,3 +52,4 @@ public class Estudiantes : Personas
 camcio en desarrollo
 */
 //cambio de las 7.02
+//cambio 7.06 en main
