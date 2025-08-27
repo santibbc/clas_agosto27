@@ -25,7 +25,9 @@ public class Tipos
 {
     public int Id = 0;
     public String? Nombre = "";
+    public List<Personas> VideoJuegos = new List<Personas>();
 }
+
 
 public class VideoJuegos
 {
@@ -43,10 +45,18 @@ public class Personas
     public Tipos Tipo = new Tipos();
     public List<VideoJuegos> VideoJuegos = new List<VideoJuegos>();
 }
+public interface IEstudiantes
+{
+    void Utiles();
+}
 
-public class Estudiantes : Personas
+public class Estudiantes : Personas, IEstudiantes
 {
     public String? Carnet = "";
+    public void Utiles()
+    {
+        
+    }
 }
 /*
 camcio en desarrollo
